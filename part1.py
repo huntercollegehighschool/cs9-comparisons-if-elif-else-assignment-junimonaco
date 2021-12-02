@@ -23,12 +23,11 @@ smallest = number1
 
 if number2  < smallest:
   smallest = number2
-elif number3 < smallest:
+if number3 < smallest:
   smallest = number3
-else:
-  smallest = number1
-
-if number1 == number2 == number3
+elif number2 > number3:
+  smallest = number2
+if number1 == number2 == number3:
   print("The numbers are equal.")
-
-print("The smallest number is ", smallest)
+else:
+  print("The smallest number is ", smallest)
