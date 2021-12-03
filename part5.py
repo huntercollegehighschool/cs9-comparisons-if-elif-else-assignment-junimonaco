@@ -23,3 +23,6 @@ not a month
 '''
 
 #start writing your code below
+month = int(input("Enter a month: "))
+
+if month == 

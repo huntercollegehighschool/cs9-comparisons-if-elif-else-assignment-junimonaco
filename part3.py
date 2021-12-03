@@ -28,4 +28,7 @@ elif num == 0:
 else:
   print("negative")
 
-if 
+if num % 3 == 0:
+  print("divisible by 3")
+else:
+  print("not divisible by 3")
