@@ -23,6 +23,18 @@ not a month
 '''
 
 #start writing your code below
-month = int(input("Enter a month: "))
+month = (input("Enter a month: "))
 
-if month == 
+if month == "January" or month == "january" or month == "May" or month == "may" or month == "March" or month == "march" or month == "July" or month == "july" or month == "August" or month == "august" or month == "October" or month == "october" or month == "December" or month == "december": 
+  print("31")
+
+elif month == "February" or month == "february":
+  print("28 or 29")
+
+elif month == "September" or month == "september" or month == "April" or month == "april" or month == "June" or month == "june" or month == "November" or month == "november":
+  print("30")
+
+else:
+  print ("not a month")
+
+# it wouldn't work unless i put "month ==" before every variable, is this normal?
